@@ -1,0 +1,11 @@
+- hosts: servers
+  become: yes
+  tasks:
+    - name: Install Git
+      apt:
+        name: git
+        state: present
+
+  roles:
+    - dependencies
+    - deployment
