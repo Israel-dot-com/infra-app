@@ -20,8 +20,8 @@ Ensure you have the following installed before proceeding:
 ## Setup Instructions
 ### 1. Clone the Repository
 ```sh
-git clone <repo-url>
-cd infrastructure
+git clone https://github.com/Israel-dot-com/infra-app
+cd infra-app/terraform
 ```
 
 ### 2. Initialize Terraform
